@@ -1,6 +1,6 @@
 {
   "name": "arraytocsv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert an array to csv format.",
   "main": "index.js",
   "scripts": {
