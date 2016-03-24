@@ -1,0 +1,23 @@
+{
+  "name": "arraytocsv",
+  "version": "1.0.0",
+  "description": "Convert an array to csv format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BastianHofmann/arraytocsv.git"
+  },
+  "keywords": [
+    "array",
+    "csv"
+  ],
+  "author": "Bastian Hofmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BastianHofmann/arraytocsv/issues"
+  },
+  "homepage": "https://github.com/BastianHofmann/arraytocsv#readme"
+}
