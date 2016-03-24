@@ -21,7 +21,7 @@ function arrayToCsv(rows, delimiter) {
     delimiter = ";";
   }
 
-  rows.map(function(row) {
+  return rows.map(function(row) {
     return row.map(escapeCsvValue, delimiter).join(delimiter);
   }).join("\n");
 };
