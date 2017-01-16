@@ -1,8 +1,7 @@
 function escapeCsvValue(val, delimiter) {
-  var type = typeof val;
   
-  if (type === "undefined" || type === null) {
-    output = "";
+  if (typeof(val) === "undefined" || val === null) {
+    return "";
   } else {
     val = String(val);
   }
